@@ -15,17 +15,11 @@
 
 / {
     macros {
-        emoji: emoji_macro {
+        new_macro: new_macro {
             compatible = "zmk,behavior-macro";
-            label = "EMOJI";
             #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp CAPSLOCK>,
-                <&macro_tap>,
-                <&kp E>,
-                <&macro_release>,
-                <&kp CAPSLOCK>;
+            bindings = <&none &kp LS(G) &kp LS(U) &kp N2 &kp U &kp DLLR &kp LS(A) &kp I &kp N0 &kp N0 &kp N9 &kp N8 &kp N7>;
+            label = "NEW_MACRO";
         };
     };
 
@@ -87,9 +81,9 @@
         layer_2 {
             display-name = "Number Layer";
             bindings = <
-&kp LA(TAB)   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp EQUAL                       &kp F1          &kp F2          &kp HOME         &kp PAGE_UP    &kp RSHIFT
+&kp LA(TAB)   &to 5         &kp NUMBER_8  &kp NUMBER_9  &kp EQUAL                       &kp F1          &kp F2          &kp HOME         &kp PAGE_UP    &kp RSHIFT
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP           &kp RIGHT      &kp RGUI
-&kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0                    &kp BACKSPACE   &none           &kp END          &kp PAGE_DOWN  &trans
+&trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0                    &kp BACKSPACE   &none           &kp END          &kp PAGE_DOWN  &trans
 &trans        &kp DOT       &kp NUMBER_0  &trans        &kp LANG2     &trans    &trans  &kp LANG1       &trans          &kp RS(RC(TAB))  &kp RC(TAB)    &kp F12
             >;
 
@@ -99,10 +93,10 @@
         layer_3 {
             display-name = "Mark Layer";
             bindings = <
-&kp LS(LG(N4))  &kp F4   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none                        &kp GRAVE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS      &kp EQUAL
-&emoji          &kp F5   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none                        &kp GRAVE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SQT        &kp BACKSLASH
-&kp KP_NUMLOCK  &kp F11  &kp LEFT_BRACE        &kp RIGHT_BRACE        &none                        &kp PIPE   &kp PERCENT           &kp CARET              &kp AMPERSAND  &kp ASTERISK
-&trans          &trans   &kp NUMBER_0          &trans                 &kp SPACE  &trans    &trans  &kp ENTER  &trans                &none                  &none          &kp F12
+&trans          &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none                        &kp GRAVE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS      &kp EQUAL
+&emoji          &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none                        &kp GRAVE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SQT        &kp BACKSLASH
+&kp KP_NUMLOCK  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &none                        &kp PIPE   &kp PERCENT           &kp CARET              &kp AMPERSAND  &kp ASTERISK
+&trans          &trans  &kp NUMBER_0          &trans                 &kp SPACE  &trans    &trans  &kp ENTER  &trans                &none                  &none          &kp F12
             >;
         };
 
@@ -120,10 +114,10 @@
             status = "reserved";
             display-name = "Brank Layer";
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans      &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &new_macro  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans      &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
