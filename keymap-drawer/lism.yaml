@@ -97,26 +97,26 @@ layers:
   - HOME
   - PAGE UP
   - RSHIFT
-  - '*'
-  - {t: '4', h: LALT}
-  - {t: '5', h: LSHIFT}
-  - {t: '6', h: LGUI}
-  - {t: '-', h: LCTRL}
-  - '&mkp MB1'
-  - ←
-  - ↑
-  - →
-  - RGUI
-  - /
   - '1'
   - '2'
   - '3'
-  - +
+  - '4'
+  - '5'
+  - '&mkp MB1'
+  - DOWN ARROW
+  - ↑
+  - →
+  - RGUI
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - '&mkp MB2'
   - ''
   - END
   - PAGE DOWN
-  - RALT
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - .
   - '0'
@@ -135,20 +135,20 @@ layers:
   - (
   - )
   - ''
-  - '~'
-  - '!'
-  - '@'
-  - '#'
-  - $
+  - '`'
+  - (
+  - )
+  - '-'
+  - '='
   - '&emoji'
   - F5
   - '['
   - ']'
   - ''
   - '`'
-  - _
-  - ''''
-  - '"'
+  - '['
+  - ']'
+  - SQT
   - {t: \, type: held}
   - KP NUMLOCK
   - F11
@@ -215,3 +215,6 @@ layers:
   - ''
   - ''
   - Boot
+combos:
+- p: [10, 11]
+  k: Ctl+A
