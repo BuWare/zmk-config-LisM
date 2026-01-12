@@ -150,7 +150,7 @@ layers:
   - ']'
   - SQT
   - {t: \, type: held}
-  - KP NUMLOCK
+  - LEFT SHIFT
   - {t: ▽, type: trans}
   - '{'
   - '}'
@@ -159,7 +159,7 @@ layers:
   - '%'
   - ^
   - '&'
-  - '*'
+  - RIGHT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
