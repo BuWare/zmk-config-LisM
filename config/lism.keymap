@@ -114,10 +114,10 @@
             status = "reserved";
             display-name = "Brank Layer";
             bindings = <
-&trans  &trans  &trans      &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &new_macro  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans      &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
