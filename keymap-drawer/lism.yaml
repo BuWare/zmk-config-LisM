@@ -88,7 +88,7 @@ layers:
   - Gui+W
   Number Layer:
   - Alt+TAB
-  - '7'
+  - '&new_macro'
   - '8'
   - '9'
   - '='
@@ -107,7 +107,7 @@ layers:
   - ↑
   - →
   - RGUI
-  - '6'
+  - {t: ▽, type: trans}
   - '7'
   - '8'
   - '9'
@@ -130,8 +130,8 @@ layers:
   - Ctl+TAB
   - F12
   Mark Layer:
-  - Sft+Gui+4
-  - F4
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - (
   - )
   - ''
@@ -140,8 +140,8 @@ layers:
   - )
   - '-'
   - '='
-  - '&emoji'
-  - F5
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '['
   - ']'
   - ''
@@ -151,7 +151,7 @@ layers:
   - SQT
   - {t: \, type: held}
   - KP NUMLOCK
-  - F11
+  - {t: ▽, type: trans}
   - '{'
   - '}'
   - ''
