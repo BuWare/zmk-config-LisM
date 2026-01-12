@@ -95,7 +95,7 @@
             bindings = <
 &trans          &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none                        &kp GRAVE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS      &kp EQUAL
 &trans          &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none                        &kp GRAVE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SQT        &kp BACKSLASH
-&kp KP_NUMLOCK  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &none                        &kp PIPE   &kp PERCENT           &kp CARET              &kp AMPERSAND  &kp ASTERISK
+&kp LEFT_SHIFT  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &none                        &kp PIPE   &kp PERCENT           &kp CARET              &kp AMPERSAND  &kp RIGHT_SHIFT
 &trans          &trans  &kp NUMBER_0          &trans                 &kp SPACE  &trans    &trans  &kp ENTER  &trans                &none                  &none          &kp F12
             >;
         };
