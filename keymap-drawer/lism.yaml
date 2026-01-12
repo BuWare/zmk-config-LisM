@@ -94,8 +94,8 @@ layers:
   - '='
   - F1
   - F2
-  - F7
-  - F10
+  - HOME
+  - PAGE UP
   - RSHIFT
   - '*'
   - {t: '4', h: LALT}
@@ -114,8 +114,8 @@ layers:
   - +
   - '&mkp MB2'
   - ''
-  - ↓
-  - ''
+  - END
+  - PAGE DOWN
   - RALT
   - {t: ▽, type: trans}
   - .
