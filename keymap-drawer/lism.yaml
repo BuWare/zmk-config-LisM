@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - A
+  - {t: A, h: LCTRL}
   - S
   - D
   - F
@@ -44,31 +44,31 @@ layers:
   - F10
   - {t: F12, h: Device Layer}
   Mouse Layer:
-  - Ctl+Q
-  - Ctl+W
-  - Ctl+E
-  - Ctl+R
-  - Ctl+T
+  - TAB
+  - F4
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - SPACE
   - Gui+←
   - Gui+→
   - '&mkp MB3'
   - {t: ▽, type: trans}
+  - LCTRL
   - {t: ▽, type: trans}
-  - Ctl+A
-  - Ctl+D
-  - Ctl+F
-  - Ctl+G
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Gui+↑
   - '&mkp MB1'
   - '&mkp MB2'
   - '&msc SCRL_UP'
   - '&msc SCRL_DOWN'
-  - Ctl+Z
-  - Ctl+X
-  - Ctl+C
-  - Ctl+V
-  - Ctl+B
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT ALT
+  - {t: ▽, type: trans}
   - Ctl+N
   - ←
   - ↑
