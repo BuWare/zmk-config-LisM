@@ -12,16 +12,16 @@ layers:
   - O
   - P
   - A
-  - {t: S, h: LALT}
-  - {t: D, h: LSHIFT}
-  - {t: F, h: LGUI}
-  - {t: G, h: LCTRL}
+  - S
+  - D
+  - F
+  - G
   - {t: H, h: RCTRL}
   - {t: J, h: RGUI}
   - K
   - {t: L, h: RALT}
   - {t: ;, h: Mark Layer}
-  - Z
+  - {t: Z, h: RIGHT SHIFT}
   - X
   - C
   - V
@@ -30,7 +30,7 @@ layers:
   - M
   - ','
   - .
-  - /
+  - {t: /, h: RIGHT SHIFT}
   - {t: DEL, h: Device Layer}
   - {t: Mouse Layer, h: toggle}
   - {t: TAB, h: Mouse Layer}
@@ -44,32 +44,32 @@ layers:
   - F10
   - {t: F12, h: Device Layer}
   Mouse Layer:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+Q
+  - Ctl+W
+  - Ctl+E
+  - Ctl+R
+  - Ctl+T
   - SPACE
   - Gui+←
   - Gui+→
   - '&mkp MB3'
   - {t: ▽, type: trans}
-  - '&mkp MB5'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+A
+  - Ctl+D
+  - Ctl+F
+  - Ctl+G
   - Gui+↑
   - '&mkp MB1'
   - '&mkp MB2'
   - '&msc SCRL_UP'
   - '&msc SCRL_DOWN'
-  - '&mkp MB4'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+↓
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - Ctl+B
+  - Ctl+N
   - ←
   - ↑
   - →
@@ -87,7 +87,7 @@ layers:
   - {t: ▽, type: trans}
   - Gui+W
   Number Layer:
-  - {t: ▽, type: trans}
+  - Alt+TAB
   - '7'
   - '8'
   - '9'
