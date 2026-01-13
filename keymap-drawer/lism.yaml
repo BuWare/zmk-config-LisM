@@ -118,7 +118,7 @@ layers:
   - PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - .
+  - {t: ▽, type: trans}
   - '0'
   - {t: ▽, type: trans}
   - {t: LANG2, type: held}
