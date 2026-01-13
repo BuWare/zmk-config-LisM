@@ -36,8 +36,8 @@ layers:
   - {t: TAB, h: Mouse Layer}
   - Sft+Gui+4
   - {t: SPACE, h: Number Layer}
+  - '&mkp MB2'
   - {t: ESC, h: Mark Layer}
-  - {t: BS, h: Mark Layer}
   - {t: ENTER, h: Number Layer}
   - Sft+Gui+4
   - F7
@@ -87,7 +87,7 @@ layers:
   - {t: ▽, type: trans}
   - Gui+W
   Number Layer:
-  - Alt+TAB
+  - TAB
   - '&new_macro'
   - '8'
   - '9'
@@ -107,7 +107,7 @@ layers:
   - ↑
   - →
   - RGUI
-  - {t: ▽, type: trans}
+  - {t: '6', h: LEFT SHIFT}
   - '7'
   - '8'
   - '9'
@@ -122,7 +122,7 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: LANG2, type: held}
-  - {t: ▽, type: trans}
+  - LEFT ALT
   - {t: ▽, type: trans}
   - LANG1
   - {t: ▽, type: trans}
