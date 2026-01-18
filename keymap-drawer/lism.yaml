@@ -91,12 +91,12 @@ layers:
   - '&new_macro'
   - '8'
   - '9'
-  - '='
+  - LCTRL
   - F1
   - F2
   - HOME
   - PAGE UP
-  - RSHIFT
+  - BS
   - '1'
   - '2'
   - '3'
@@ -112,13 +112,13 @@ layers:
   - '8'
   - '9'
   - '0'
-  - BS
-  - ''
+  - DEL
+  - MENU
   - END
   - PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT SHIFT
   - '0'
   - {t: ▽, type: trans}
   - {t: LANG2, type: held}
