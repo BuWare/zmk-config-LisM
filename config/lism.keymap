@@ -81,10 +81,10 @@
         layer_2 {
             display-name = "Number Layer";
             bindings = <
-&kp TAB                  &new_macro    &kp NUMBER_8  &kp NUMBER_9  &kp EQUAL                             &kp F1          &kp F2          &kp HOME         &kp PAGE_UP    &kp RSHIFT
-&kp NUMBER_1             &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP           &kp RIGHT      &kp ENTER
-&mt LEFT_SHIFT NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0                          &kp BACKSPACE   &none           &kp END          &kp PAGE_DOWN  &trans
-&trans                   &trans        &kp NUMBER_0  &trans        &kp LANG2     &kp LEFT_ALT    &trans  &kp LANG1       &trans          &kp RS(RC(TAB))  &kp RC(TAB)    &kp F12
+&kp TAB                  &new_macro      &kp NUMBER_8  &kp NUMBER_9  &kp LCTRL                             &kp F1          &kp F2          &kp HOME         &kp PAGE_UP    &kp BACKSPACE
+&kp NUMBER_1             &kp NUMBER_2    &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP           &kp RIGHT      &kp ENTER
+&mt LEFT_SHIFT NUMBER_6  &kp NUMBER_7    &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0                          &kp DEL         &kp K_MENU      &kp END          &kp PAGE_DOWN  &trans
+&trans                   &kp LEFT_SHIFT  &kp NUMBER_0  &trans        &kp LANG2     &kp LEFT_ALT    &trans  &kp LANG1       &trans          &kp RS(RC(TAB))  &kp RC(TAB)    &kp F12
             >;
 
             sensor-bindings = <&encoder_kp C_VOL_UP C_VOL_DN>;
