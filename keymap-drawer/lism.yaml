@@ -90,7 +90,7 @@ layers:
   - TAB
   - F2
   - F3
-  - LEFT SHIFT
+  - F4
   - LCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
