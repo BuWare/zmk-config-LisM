@@ -62,7 +62,7 @@ layers:
   - Gui+Sft+S
   - '&mkp MB1'
   - '&mkp MB2'
-  - Mark Layer
+  - Number Layer
   - ''
   - LEFT SHIFT
   - {t: ▽, type: trans}
@@ -72,7 +72,7 @@ layers:
   - Ctl+N
   - ←
   - ↑
-  - Mark Layer
+  - Number Layer
   - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
