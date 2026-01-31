@@ -223,7 +223,7 @@
     };
 
     automouse: automouse {
-        compatible = "zmk,input-processor-automouse-layer";
+        compatible = "zmk,input-processor-temp-layer";
 
         #input-processor-cells = <0>;
 
