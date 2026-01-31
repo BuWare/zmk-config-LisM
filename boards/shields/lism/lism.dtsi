@@ -224,6 +224,9 @@
 
     automouse: automouse {
         compatible = "zmk,input-processor-automouse-layer";
+
+        #input-processor-cells = <0>;
+
         layer = <1>;              // layer_1 = Mouse Layer
         timeout-ms = <800>;       // 無操作 800ms で戻る
     };
