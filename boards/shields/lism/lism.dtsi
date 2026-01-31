@@ -216,14 +216,7 @@
     // セントラルのためのリスナー（後でdeviceを割当）
     central_listener: central_listener {
         compatible = "zmk,input-listener";
-        status = "okay";
-        device = <&trackball_split>;
-        input-processors = <&automouse MOUSE 800>;
-    };
-
-    automouse: automouse {
-        compatible = "zmk,input-processor-temp-layer";
-        #input-processor-cells = <2>;
+        status = "disabled";
     };
 
     /* 充電ステータス */
