@@ -73,7 +73,7 @@
             bindings = <
 &kp TAB         &kp F4  &trans  &trans        &trans                    &kp SPACE   &kp RG(LEFT)  &kp RG(RIGHT)  &mkp MB3      &trans
 &kp LCTRL       &trans  &trans  &trans        &trans                    &kp LG(UP)  &mkp MB1      &mkp MB2       &msc SCRL_UP  &msc SCRL_DOWN
-&kp LEFT_SHIFT  &trans  &trans  &kp LEFT_ALT  &trans                    &kp LC(N)   &kp LEFT      &kp UP         &kp RIGHT     &kp LEFT_SHIFT
+&kp LEFT_SHIFT  &trans  &trans  &kp LEFT_ALT  &trans                    &kp LC(N)   &kp LEFT      &kp UP         &mo 2         &kp LEFT_SHIFT
 &trans          &trans  &trans  &trans        &trans  &trans    &trans  &trans      &trans        &kp DOWN       &trans        &kp LG(W)
             >;
         };
