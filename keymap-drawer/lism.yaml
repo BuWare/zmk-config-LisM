@@ -11,16 +11,16 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: LCTRL}
+  - A
   - S
   - D
   - F
   - G
-  - {t: H, h: RCTRL}
-  - {t: J, h: RGUI}
+  - H
+  - J
   - K
-  - {t: L, h: RALT}
-  - {t: ;, h: Mark Layer}
+  - L
+  - '-'
   - {t: Z, h: RIGHT SHIFT}
   - X
   - C
@@ -33,15 +33,15 @@ layers:
   - {t: /, h: RIGHT SHIFT}
   - {t: DEL, h: Device Layer}
   - LEFT GUI
-  - {t: TAB, h: Mouse Layer}
+  - LEFT ALT
   - Sft+Gui+4
-  - {t: SPACE, h: Number Layer}
-  - '&mkp MB2'
-  - {t: ESC, h: Mark Layer}
-  - {t: ENTER, h: Number Layer}
+  - {t: SPACE, h: Mark Layer}
+  - LCTRL
+  - {t: ESC, h: Device Layer}
+  - {t: ENTER, h: Mark Layer}
   - Sft+Gui+4
-  - F7
-  - F10
+  - ''
+  - ''
   - '&mkp MB1'
   Mouse Layer:
   - TAB
@@ -50,21 +50,21 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - SPACE
-  - Gui+←
-  - Gui+→
-  - '&mkp MB3'
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - LCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+↑
+  - Gui+Sft+S
   - '&mkp MB1'
   - '&mkp MB2'
-  - '&msc SCRL_UP'
-  - '&msc SCRL_DOWN'
-  - {t: ▽, type: trans}
+  - Mark Layer
+  - ''
+  - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT ALT
@@ -72,11 +72,11 @@ layers:
   - Ctl+N
   - ←
   - ↑
-  - →
+  - Mark Layer
+  - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -85,15 +85,15 @@ layers:
   - {t: ▽, type: trans}
   - ↓
   - {t: ▽, type: trans}
-  - Gui+W
+  - '&mkp MB1'
   Number Layer:
   - TAB
-  - '&new_macro'
-  - '8'
-  - '9'
-  - LCTRL
-  - F1
   - F2
+  - F3
+  - LEFT SHIFT
+  - LCTRL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - HOME
   - PAGE UP
   - BS
@@ -113,22 +113,22 @@ layers:
   - '9'
   - '0'
   - DEL
-  - MENU
+  - CMENU
   - END
   - PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT SHIFT
-  - '0'
+  - LEFT ALT
   - {t: ▽, type: trans}
-  - {t: LANG2, type: held}
+  - LANG2
   - LEFT ALT
   - {t: ▽, type: trans}
   - LANG1
   - {t: ▽, type: trans}
   - Sft+Ctl+TAB
   - Ctl+TAB
-  - F12
+  - Device Layer
   Mark Layer:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -149,7 +149,7 @@ layers:
   - '['
   - ']'
   - SQT
-  - {t: \, type: held}
+  - \
   - LEFT SHIFT
   - {t: ▽, type: trans}
   - '{'
@@ -164,7 +164,7 @@ layers:
   - {t: ▽, type: trans}
   - '0'
   - {t: ▽, type: trans}
-  - SPACE
+  - {t: SPACE, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ENTER
