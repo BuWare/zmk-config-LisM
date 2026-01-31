@@ -216,7 +216,17 @@
     // セントラルのためのリスナー（後でdeviceを割当）
     central_listener: central_listener {
         compatible = "zmk,input-listener";
-        status = "disabled";
+        status = "okay";
+        device = <&trackball_split>;
+        input-processors =
+            <&automouse>;
+    };
+
+    automouse: automouse {
+        compatible = "zmk,input-processor-automouse-layer";
+        layer = <1>;              // layer_1 = Mouse Layer
+        timeout-ms = <800>;       // 無操作 800ms で戻る
+        ignore-keys = <&kp MB1 &kp MB2 &kp MB3>;
     };
 
     /* 充電ステータス */
