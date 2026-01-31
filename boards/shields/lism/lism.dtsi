@@ -218,17 +218,12 @@
         compatible = "zmk,input-listener";
         status = "okay";
         device = <&trackball_split>;
-        input-processors =
-            <&automouse>;
+        input-processors = <&automouse MOUSE 800>;
     };
 
     automouse: automouse {
         compatible = "zmk,input-processor-temp-layer";
-
-        #input-processor-cells = <0>;
-
-        layer = <1>;              // layer_1 = Mouse Layer
-        timeout-ms = <800>;       // 無操作 800ms で戻る
+        #input-processor-cells = <2>;
     };
 
     /* 充電ステータス */
