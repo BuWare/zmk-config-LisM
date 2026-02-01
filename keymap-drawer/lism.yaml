@@ -59,7 +59,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+Sft+S
+  - ''
   - '&mkp MB1'
   - '&mkp MB2'
   - Number Layer
