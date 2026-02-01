@@ -91,7 +91,7 @@ layers:
   - F2
   - F3
   - F4
-  - LCTRL
+  - F5
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HOME
@@ -148,7 +148,7 @@ layers:
   - '`'
   - '['
   - ']'
-  - SQT
+  - ;
   - \
   - LEFT SHIFT
   - {t: ▽, type: trans}
