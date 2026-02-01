@@ -62,11 +62,11 @@
             label = "NEW_MACRO";
         };
 
-        new_macro2: new_macro {
+        new_macro2: new_macro2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&none &kp LS(A) &kp SEMI &kp L &kp K &kp J &kp N1 &kp N2 &kp N3 &kp N4>;
-            label = "NEW_MACRO";
+            label = "NEW_MACRO2";
         };
     };
 
