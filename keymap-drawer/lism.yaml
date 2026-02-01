@@ -36,7 +36,7 @@ layers:
   - LEFT ALT
   - Sft+Gui+4
   - {t: SPACE, h: Number Layer}
-  - {t: LCTRL, h: Mark Layer}
+  - LCTRL
   - {t: ESC, h: Mark Layer}
   - {t: ENTER, h: Number Layer}
   - Sft+Gui+4
@@ -165,8 +165,8 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - ''
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - ENTER
   - {t: ▽, type: trans}
   - ''
@@ -216,11 +216,11 @@ layers:
   - ''
   - Boot
 combos:
-- p: [10, 11]
-  k: Ctl+A
 - p: [18, 19]
   k: ENTER
 - p: [5, 6]
   k: '&new_macro'
 - p: [7, 8]
   k: '&new_macro2'
+- p: [0, 1]
+  k: Mark Layer
