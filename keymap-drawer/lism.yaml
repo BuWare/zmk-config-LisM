@@ -40,7 +40,7 @@ layers:
   - {t: ESC, h: Mark Layer}
   - {t: ENTER, h: Number Layer}
   - Sft+Gui+4
-  - ''
+  - TAB
   - ''
   - '&mkp MB1'
   Mouse Layer:
@@ -138,14 +138,14 @@ layers:
   - '`'
   - (
   - )
-  - '-'
+  - ''''
   - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '['
   - ']'
   - ''
-  - '`'
+  - ''
   - '['
   - ']'
   - ;
@@ -155,10 +155,10 @@ layers:
   - '{'
   - '}'
   - ''
-  - '|'
-  - '%'
-  - ^
-  - '&'
+  - ''
+  - ''
+  - ''
+  - ''
   - RIGHT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -171,7 +171,7 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - ''
-  - F12
+  - ''
   Device Layer:
   - ''
   - ''
