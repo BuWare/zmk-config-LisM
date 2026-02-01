@@ -36,7 +36,7 @@ layers:
   - LEFT ALT
   - Sft+Gui+4
   - {t: SPACE, h: Number Layer}
-  - LCTRL
+  - {t: LCTRL, h: Mark Layer}
   - {t: ESC, h: Mark Layer}
   - {t: ENTER, h: Number Layer}
   - Sft+Gui+4
@@ -132,9 +132,9 @@ layers:
   Mark Layer:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - (
-  - )
-  - ''
+  - ENTER
+  - UP ARROW
+  - BS
   - '`'
   - (
   - )
@@ -142,9 +142,9 @@ layers:
   - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - ''
+  - LEFT ARROW
+  - DOWN ARROW
+  - →
   - ''
   - '['
   - ']'
@@ -152,8 +152,8 @@ layers:
   - \
   - LEFT SHIFT
   - {t: ▽, type: trans}
-  - '{'
-  - '}'
+  - ''
+  - ''
   - ''
   - ''
   - ''
@@ -162,11 +162,11 @@ layers:
   - RIGHT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '0'
+  - ''
   - {t: ▽, type: trans}
-  - SPACE
-  - {t: ▽, type: trans}
+  - ''
   - {type: held}
+  - {t: ▽, type: trans}
   - ENTER
   - {t: ▽, type: trans}
   - ''
