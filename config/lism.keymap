@@ -79,7 +79,7 @@
 &kp Q              &kp W         &kp E         &kp R           &kp T                                &kp Y        &kp U           &kp I      &kp O    &kp P
 &kp A              &kp S         &kp D         &kp F           &kp G                                &kp H        &kp J           &kp K      &kp L    &kp MINUS
 &mt RIGHT_SHIFT Z  &kp X         &kp C         &kp V           &kp B                                &kp N        &kp M           &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&lt 4 DELETE       &kp LEFT_GUI  &kp LEFT_ALT  &kp LS(LG(N4))  &lt 2 SPACE  &kp LCTRL    &lt 3 ESC  &lt 2 ENTER  &kp LS(LG(N4))  &none      &none    &mkp MB1
+&lt 4 DELETE       &kp LEFT_GUI  &kp LEFT_ALT  &kp LS(LG(N4))  &lt 2 SPACE  &kp LCTRL    &lt 3 ESC  &lt 2 ENTER  &kp LS(LG(N4))  &kp TAB    &none    &mkp MB1
             >;
 
             sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
@@ -110,10 +110,10 @@
         layer_3 {
             display-name = "Mark Layer";
             bindings = <
-&trans          &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none                        &kp GRAVE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS      &kp EQUAL
-&trans          &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none                        &kp GRAVE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SEMICOLON  &kp BACKSLASH
-&kp LEFT_SHIFT  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &none                        &kp PIPE   &kp PERCENT           &kp CARET              &kp AMPERSAND  &kp RIGHT_SHIFT
-&trans          &trans  &kp NUMBER_0          &trans                 &kp SPACE  &trans    &trans  &kp ENTER  &trans                &none                  &none          &kp F12
+&trans          &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none                        &kp GRAVE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SINGLE_QUOTE  &kp EQUAL
+&trans          &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none                        &none      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SEMICOLON     &kp BACKSLASH
+&kp LEFT_SHIFT  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &none                        &none      &none                 &none                  &none             &kp RIGHT_SHIFT
+&trans          &trans  &kp NUMBER_0          &trans                 &kp SPACE  &trans    &trans  &kp ENTER  &trans                &none                  &none             &none
             >;
         };
 
