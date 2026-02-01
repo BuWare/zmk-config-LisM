@@ -47,6 +47,11 @@
             bindings = <&new_macro>;
             key-positions = <5 6>;
         };
+
+        pass2 {
+            bindings = <&new_macro2>;
+            key-positions = <7 8>;
+        };
     };
 
     macros {
@@ -54,6 +59,13 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&none &kp LS(G) &kp LS(U) &kp N2 &kp U &kp DLLR &kp LS(A) &kp I &kp N0 &kp N0 &kp N9 &kp N8 &kp N7>;
+            label = "NEW_MACRO";
+        };
+
+        new_macro2: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LS(A) &kp SEMI &kp L &kp K &kp J &kp N1 &kp N2 &kp N3 &kp N4>;
             label = "NEW_MACRO";
         };
     };
@@ -119,10 +131,10 @@
             status = "reserved";
             display-name = "Brank Layer";
             bindings = <
-&trans  &trans  &trans      &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &new_macro  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans      &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &none   &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
