@@ -44,17 +44,17 @@ layers:
   - ''
   - '&mkp MB1'
   Mouse Layer:
-  - TAB
-  - F4
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - SPACE
-  - ''
   - ''
   - ''
   - {t: ▽, type: trans}
-  - LCTRL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -64,14 +64,14 @@ layers:
   - '&mkp MB2'
   - Number Layer
   - ''
-  - LEFT SHIFT
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT ALT
+  - ''
   - {t: ▽, type: trans}
-  - Ctl+N
-  - ←
-  - ↑
+  - ''
+  - ''
+  - ''
   - Number Layer
   - LEFT SHIFT
   - {t: ▽, type: trans}
@@ -83,7 +83,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ↓
+  - ''
   - {t: ▽, type: trans}
   - '&mkp MB1'
   Number Layer:
