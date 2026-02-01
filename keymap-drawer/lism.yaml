@@ -92,7 +92,7 @@ layers:
   - F3
   - F4
   - F5
-  - {t: ▽, type: trans}
+  - LCTRL
   - {t: ▽, type: trans}
   - HOME
   - PAGE UP
