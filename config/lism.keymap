@@ -43,11 +43,6 @@
             key-positions = <5 25>;
         };
 
-        pass2 {
-            bindings = <&new_macro2>;
-            key-positions = <7 27>;
-        };
-
         qw {
             bindings = <&mo 3>;
             key-positions = <0 1>;
