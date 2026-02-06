@@ -220,7 +220,5 @@ combos:
   k: ENTER
 - p: [5, 25]
   k: '&new_macro'
-- p: [7, 27]
-  k: '&new_macro2'
 - p: [0, 1]
   k: Mark Layer
