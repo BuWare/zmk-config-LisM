@@ -40,12 +40,12 @@
 
         pass {
             bindings = <&new_macro>;
-            key-positions = <5 6>;
+            key-positions = <5 25>;
         };
 
         pass2 {
             bindings = <&new_macro2>;
-            key-positions = <7 8>;
+            key-positions = <7 27>;
         };
 
         qw {
@@ -110,10 +110,10 @@
         layer_3 {
             display-name = "Mark Layer";
             bindings = <
-&trans          &trans  &kp ENTER       &kp UP_ARROW    &kp BACKSPACE                    &kp GRAVE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SINGLE_QUOTE  &kp EQUAL
-&trans          &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT                        &none      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SEMICOLON     &kp BACKSLASH
-&kp LEFT_SHIFT  &trans  &none           &none           &none                            &none      &none                 &none                  &none             &kp RIGHT_SHIFT
-&trans          &trans  &none           &trans          &none          &trans    &trans  &kp ENTER  &trans                &none                  &none             &none
+&trans          &trans  &kp ENTER       &kp UP_ARROW    &kp BACKSPACE                    &kp GRAVE         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SINGLE_QUOTE  &kp EQUAL
+&trans          &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT                        &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp RIGHT_BRACKET      &kp SEMICOLON     &kp BACKSLASH
+&kp LEFT_SHIFT  &trans  &none           &none           &none                            &none             &none                 &none                  &none             &kp RIGHT_SHIFT
+&trans          &trans  &none           &trans          &none          &trans    &trans  &kp ENTER         &trans                &none                  &none             &none
             >;
         };
 
