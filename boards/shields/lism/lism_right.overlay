@@ -7,11 +7,3 @@
 &transform_40keymap {
     col-offset = <5>;
 };
-
-/ {
-    aliases {
-        led-red = &rgbled_red;
-        led-green = &rgbled_green;
-        led-blue = &rgbled_blue;
-    };
-};
