@@ -7,3 +7,22 @@
 &transform_40keymap {
     col-offset = <5>;
 };
+{
+    rgbled_red: rgbled_red {
+        gpios = <&gpio0 13 GPIO_ACTIVE_HIGH>;
+    };
+
+    rgbled_green: rgbled_green {
+        gpios = <&gpio0 14 GPIO_ACTIVE_HIGH>;
+    };
+
+    rgbled_blue: rgbled_blue {
+        gpios = <&gpio0 15 GPIO_ACTIVE_HIGH>;
+    };
+
+    aliases {
+        rgbled-red   = &rgbled_red;
+        rgbled-green = &rgbled_green;
+        rgbled-blue  = &rgbled_blue;
+    };
+};
