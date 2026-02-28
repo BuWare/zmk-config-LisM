@@ -7,7 +7,7 @@
 &transform_40keymap {
     col-offset = <5>;
 };
-{
+/{
     rgbled_red: rgbled_red {
         gpios = <&gpio0 13 GPIO_ACTIVE_HIGH>;
     };
