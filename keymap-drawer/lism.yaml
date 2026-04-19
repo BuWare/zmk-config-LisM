@@ -222,3 +222,5 @@ combos:
   k: '&new_macro'
 - p: [0, 1]
   k: Mark Layer
+- p: [9, 29]
+  k: '&new_macro2'

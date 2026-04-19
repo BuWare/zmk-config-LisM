@@ -345,6 +345,12 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="56" dy="-0.6em">Mark</tspan><tspan x="56" dy="1.2em">Layer</tspan>
 </text>
 </a></g>
+<g class="combo combopos-3">
+<path d="M700,84 l0,-37" class="combo"/>
+<path d="M700,84 l0,37" class="combo"/>
+<rect rx="6" ry="6" x="686" y="71" width="28" height="26" class="combo"/>
+<text x="700" y="84" class="combo tap"><tspan style="font-size: 64%">&amp;new_macro2</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 280)" class="layer-Mouse Layer">
@@ -543,6 +549,12 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="56" dy="-0.6em">Mark</tspan><tspan x="56" dy="1.2em">Layer</tspan>
 </text>
 </a></g>
+<g class="combo combopos-3">
+<path d="M700,84 l0,-37" class="combo"/>
+<path d="M700,84 l0,37" class="combo"/>
+<rect rx="6" ry="6" x="686" y="71" width="28" height="26" class="combo"/>
+<text x="700" y="84" class="combo tap"><tspan style="font-size: 64%">&amp;new_macro2</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 560)" class="layer-Number Layer">
@@ -747,6 +759,12 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="56" dy="-0.6em">Mark</tspan><tspan x="56" dy="1.2em">Layer</tspan>
 </text>
 </a></g>
+<g class="combo combopos-3">
+<path d="M700,84 l0,-37" class="combo"/>
+<path d="M700,84 l0,37" class="combo"/>
+<rect rx="6" ry="6" x="686" y="71" width="28" height="26" class="combo"/>
+<text x="700" y="84" class="combo tap"><tspan style="font-size: 64%">&amp;new_macro2</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 840)" class="layer-Mark Layer">
@@ -935,6 +953,12 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="56" dy="-0.6em">Mark</tspan><tspan x="56" dy="1.2em">Layer</tspan>
 </text>
 </a></g>
+<g class="combo combopos-3">
+<path d="M700,84 l0,-37" class="combo"/>
+<path d="M700,84 l0,37" class="combo"/>
+<rect rx="6" ry="6" x="686" y="71" width="28" height="26" class="combo"/>
+<text x="700" y="84" class="combo tap"><tspan style="font-size: 64%">&amp;new_macro2</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1120)" class="layer-Device Layer">
@@ -1104,6 +1128,12 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="56" dy="-0.6em">Mark</tspan><tspan x="56" dy="1.2em">Layer</tspan>
 </text>
 </a></g>
+<g class="combo combopos-3">
+<path d="M700,84 l0,-37" class="combo"/>
+<path d="M700,84 l0,37" class="combo"/>
+<rect rx="6" ry="6" x="686" y="71" width="28" height="26" class="combo"/>
+<text x="700" y="84" class="combo tap"><tspan style="font-size: 64%">&amp;new_macro2</tspan></text>
+</g>
 </g>
 </g>
 <text x="758.0" y="1428.0" class="footer">LisM KEYMAPS | Created with keymap-drawer</text></svg>
