@@ -52,6 +52,11 @@
             bindings = <&new_macro2>;
             key-positions = <9 29>;
         };
+
+        mouseL {
+            bindings = <&mo 1>;
+            key-positions = <16 17>;
+        };
     };
 
     macros {
