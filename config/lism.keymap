@@ -54,7 +54,7 @@
         };
 
         mouseL {
-            bindings = <&mo 1>;
+            bindings = <&mo 2>;
             key-positions = <16 17>;
         };
     };
