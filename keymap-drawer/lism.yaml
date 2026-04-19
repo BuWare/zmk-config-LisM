@@ -41,7 +41,7 @@ layers:
   - {t: ENTER, h: Number Layer}
   - Sft+Gui+4
   - TAB
-  - ''
+  - '&mkp MB2'
   - '&mkp MB1'
   Mouse Layer:
   - ''
@@ -49,17 +49,17 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
+  - {t: ▽, type: trans}
   - '&mkp MB1'
   - '&mkp MB2'
   - Number Layer
@@ -69,9 +69,9 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Number Layer
   - LEFT SHIFT
   - {t: ▽, type: trans}
@@ -83,7 +83,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB1'
   Number Layer:
