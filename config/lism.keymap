@@ -47,6 +47,11 @@
             bindings = <&mo 3>;
             key-positions = <0 1>;
         };
+
+        passBaios {
+            bindings = <&new_macro2>;
+            key-positions = <9 29>;
+        };
     };
 
     macros {
