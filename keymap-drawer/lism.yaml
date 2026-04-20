@@ -34,7 +34,7 @@ layers:
   - {t: TAB, h: Device Layer}
   - LEFT GUI
   - LEFT ALT
-  - Sft+Gui+4
+  - Gui+2
   - {t: SPACE, h: Number Layer}
   - LCTRL
   - {t: ESC, h: Mark Layer}
