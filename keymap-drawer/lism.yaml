@@ -117,7 +117,7 @@ layers:
   - END
   - PAGE DOWN
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+Y
   - LEFT SHIFT
   - LEFT ALT
   - {t: ▽, type: trans}
