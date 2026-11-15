@@ -29,16 +29,95 @@
             bindings = <&kp>, <&kp>;
         };
 
-        n1_kp: n1_kp { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; bindings = <&kp KP_N1>, <&kp NUMBER_1>; mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>; keep-mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>; };
-        n2_kp: n2_kp { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; bindings = <&kp KP_N2>, <&kp NUMBER_2>; mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>; keep-mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>; };
-        n3_kp: n3_kp { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; bindings = <&kp KP_N3>, <&kp NUMBER_3>; mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>; keep-mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>; };
-        n4_kp: n4_kp { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; bindings = <&kp KP_N4>, <&kp NUMBER_4>; mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>; keep-mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>; };
-        n5_kp: n5_kp { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; bindings = <&kp KP_N5>, <&kp NUMBER_5>; mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>; keep-mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>; };
-        n6_kp: n6_kp { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; bindings = <&kp KP_N6>, <&kp NUMBER_6>; mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>; keep-mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>; };
-        n7_kp: n7_kp { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; bindings = <&kp KP_N7>, <&kp NUMBER_7>; mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>; keep-mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>; };
-        n8_kp: n8_kp { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; bindings = <&kp KP_N8>, <&kp NUMBER_8>; mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>; keep-mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>; };
-        n9_kp: n9_kp { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; bindings = <&kp KP_N9>, <&kp NUMBER_9>; mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>; keep-mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>; };
-        n0_kp: n0_kp { compatible = "zmk,behavior-mod-morph"; #binding-cells = <0>; bindings = <&kp KP_N0>, <&kp NUMBER_0>; mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>; keep-mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>; };
+        n1_kp: n1_kp {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp KP_N1>, <&kp NUMBER_1>;
+
+            mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        n2_kp: n2_kp {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp KP_N2>, <&kp NUMBER_2>;
+
+            mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        n3_kp: n3_kp {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp KP_N3>, <&kp NUMBER_3>;
+
+            mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        n4_kp: n4_kp {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp KP_N4>, <&kp NUMBER_4>;
+
+            mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        n5_kp: n5_kp {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp KP_N5>, <&kp NUMBER_5>;
+
+            mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        n6_kp: n6_kp {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp KP_N6>, <&kp NUMBER_6>;
+
+            mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        n7_kp: n7_kp {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp KP_N7>, <&kp NUMBER_7>;
+
+            mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        n8_kp: n8_kp {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp KP_N8>, <&kp NUMBER_8>;
+
+            mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        n9_kp: n9_kp {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp KP_N9>, <&kp NUMBER_9>;
+
+            mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>;
+        };
+
+        n0_kp: n0_kp {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp KP_N0>, <&kp NUMBER_0>;
+
+            mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>;
+            keep-mods = <(MOD_LSFT|MOD_RSFT|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_LGUI|MOD_RGUI)>;
+        };
 
         mt_n6: mt_n6 {
             compatible = "zmk,behavior-hold-tap";
@@ -63,7 +142,7 @@
         };
 
         qw {
-            bindings = <&mo 3>;
+            bindings = <&mo 4>;
             key-positions = <0 1>;
         };
 
@@ -98,7 +177,7 @@
 &kp Q              &kp W         &kp E         &kp R             &kp T                                &kp Y        &kp U           &kp I      &kp O     &kp P
 &kp A              &kp S         &kp D         &kp F             &kp G                                &kp H        &kp J           &kp K      &kp L     &kp MINUS
 &mt RIGHT_SHIFT Z  &kp X         &kp C         &kp V             &kp B                                &kp N        &kp M           &kp COMMA  &kp DOT   &mt RIGHT_SHIFT SLASH
-&lt 4 TAB          &kp LEFT_GUI  &kp LEFT_ALT  &kp LG(NUMBER_2)  &lt 2 SPACE  &kp LCTRL    &lt 3 ESC  &lt 2 ENTER  &kp LS(LG(N4))  &kp TAB    &mkp MB2  &mkp MB1
+&lt 3 TAB          &kp LEFT_GUI  &kp LEFT_ALT  &kp LG(NUMBER_2)  &lt 2 SPACE  &kp LCTRL    &lt 3 ESC  &lt 2 ENTER  &kp LS(LG(N4))  &kp TAB    &mkp MB2  &mkp MB1
             >;
 
             sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
@@ -117,10 +196,10 @@
         layer_2 {
             display-name = "Number Layer";
             bindings = <
-&kp TAB              &kp F2          &kp F3        &kp F4        &kp F5                             &kp LCTRL       &trans          &kp HOME         &kp PAGE_UP  &kp BACKSPACE
-&n1_kp               &n2_kp          &n3_kp        &n4_kp        &n5_kp                             &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP           &kp RIGHT    &kp ENTER
-&mt_n6 LEFT_SHIFT 0  &n7_kp          &n8_kp        &n9_kp        &n0_kp                             &kp DEL         &kp K_CMENU     &kp END          &kp PAGE_DOWN &trans
-&kp LC(Y)            &kp LEFT_SHIFT  &kp LEFT_ALT  &trans        &kp LANG2     &kp LCTRL    &trans  &kp LANG1       &trans          &kp RS(RC(TAB))  &kp RC(TAB)  &kp KP_NUMLOCK
+&kp TAB              &kp F2          &kp F3        &kp F4  &kp F5                          &kp LCTRL       &trans          &kp HOME         &kp PAGE_UP    &kp BACKSPACE
+&n1_kp               &n2_kp          &n3_kp        &n4_kp  &n5_kp                          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP           &kp RIGHT      &kp ENTER
+&mt_n6 LEFT_SHIFT 0  &n7_kp          &n8_kp        &n9_kp  &n0_kp                          &kp DEL         &kp K_CMENU     &kp END          &kp PAGE_DOWN  &trans
+&kp LC(Y)            &kp LEFT_SHIFT  &kp LEFT_ALT  &trans  &kp LANG2  &kp LCTRL    &trans  &kp LANG1       &trans          &kp RS(RC(TAB))  &kp RC(TAB)    &kp KP_NUMLOCK
             >;
 
             sensor-bindings = <&encoder_kp C_VOL_UP C_VOL_DN>;
