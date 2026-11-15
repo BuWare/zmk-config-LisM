@@ -130,11 +130,11 @@ layers:
   - Ctl+TAB
   - KP NUMLOCK
   Mark Layer:
-  - ESC
-  - UP ARROW
   - ENTER
   - UP ARROW
   - BS
+  - DEL
+  - {t: ▽, type: trans}
   - (
   - )
   - '-'
