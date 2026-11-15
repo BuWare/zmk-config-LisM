@@ -97,21 +97,21 @@ layers:
   - HOME
   - PAGE UP
   - BS
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
+  - {t: KP 1, s: '1'}
+  - {t: KP 2, s: '2'}
+  - {t: KP 3, s: '3'}
+  - {t: KP 4, s: '4'}
+  - {t: KP 5, s: '5'}
   - LEFT ARROW
   - DOWN ARROW
   - ↑
   - →
   - ENTER
-  - {t: '6', h: LEFT SHIFT}
-  - '7'
-  - '8'
-  - '9'
-  - '0'
+  - {t: KP 6, h: LEFT SHIFT, s: '6'}
+  - {t: KP 7, s: '7'}
+  - {t: KP 8, s: '8'}
+  - {t: KP 9, s: '9'}
+  - {t: KP 0, s: '0'}
   - DEL
   - CMENU
   - END
