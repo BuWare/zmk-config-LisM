@@ -31,7 +31,7 @@ layers:
   - ','
   - .
   - {t: /, h: RIGHT SHIFT}
-  - {t: TAB, h: Device Layer}
+  - {t: TAB, h: Mark Layer}
   - LEFT GUI
   - LEFT ALT
   - Gui+2
@@ -160,21 +160,21 @@ layers:
   - ''
   - ''
   - RIGHT SHIFT
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
   - ''
   - LCTRL
-  - {type: held}
+  - {t: ▽, type: trans}
   - ENTER
   - {t: ▽, type: trans}
   - ''
   - ''
   - ''
   Device Layer:
-  - ''
-  - ''
+  - {type: held}
+  - {type: held}
   - ''
   - ''
   - BT CLR
@@ -203,7 +203,7 @@ layers:
   - ''
   - ''
   - Reset
-  - {t: Boot, type: held}
+  - Boot
   - BT CLR ALL
   - ''
   - ''
@@ -221,6 +221,6 @@ combos:
 - p: [5, 25]
   k: '&new_macro'
 - p: [0, 1]
-  k: Mark Layer
+  k: Device Layer
 - p: [9, 29]
   k: '&new_macro2'
